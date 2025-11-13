@@ -20,8 +20,18 @@
   - <img width="1322" height="138" alt="image" src="https://github.com/user-attachments/assets/3545e2a3-460d-411c-b461-47c607ef36f0" />
 
 ## 提權
-- 
-
+- 發現 www-data 可以 sudo 執行 /usr/bin/python /home/walter/wifi_reset.py
+  - <img width="1502" height="362" alt="image" src="https://github.com/user-attachments/assets/202cda23-ed8b-4ff4-9e05-c57be95e3f0f" />
+- 發現需要 wificontroller module
+  - <img width="1062" height="108" alt="image" src="https://github.com/user-attachments/assets/cda6827d-59e6-476c-b3b3-ebdc07ff8137" />
+- 可以建立假的 wificontroller 取得 shell
+  - https://rastating.github.io/privilege-escalation-via-python-library-hijacking/
+- 寫 python reverse shell 到 wificontroller.py
+  - <img width="1312" height="102" alt="image" src="https://github.com/user-attachments/assets/de111177-249f-4da9-995e-1f85dbd6789d" />
+- 成功提權
+  - <img width="1006" height="72" alt="image" src="https://github.com/user-attachments/assets/98c63003-075e-49c1-ab37-6e420f2b7e51" />
+- 取得 proof.txt
+  - ![Uploading image.png…]()
 
 
 
