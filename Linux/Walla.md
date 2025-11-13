@@ -31,7 +31,8 @@
 - 成功提權
   - <img width="1006" height="72" alt="image" src="https://github.com/user-attachments/assets/98c63003-075e-49c1-ab37-6e420f2b7e51" />
 - 取得 proof.txt
-  - ![Uploading image.png…]()
+  - <img width="1000" height="110" alt="image" src="https://github.com/user-attachments/assets/e0a9b7a0-6c3e-4d15-b4b6-f5ab04a56632" />
+
 
 
 
