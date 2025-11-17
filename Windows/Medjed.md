@@ -51,7 +51,21 @@
   - <img width="967" height="372" alt="image" src="https://github.com/user-attachments/assets/270c7b61-a3dd-4c11-b116-e0c2aecba739" />
 
 ## 提權
-- 
+- BarracudaDrive v6.5 - Insecure Folder Permissions
+  - https://www.exploit-db.com/exploits/48789
+- 先到 C:\bd\ 將 bd.exe move 成 bd_2.exe
+  ```
+  move bd.exe bd_2.exe
+  ```
+  - <img width="1918" height="741" alt="image" src="https://github.com/user-attachments/assets/859786e0-fbc1-4475-85ad-e967ccd376e4" />
+  - <img width="852" height="95" alt="image" src="https://github.com/user-attachments/assets/5742d16a-4927-4cde-a2c2-2a226c653e76" />
+  - <img width="1918" height="752" alt="image" src="https://github.com/user-attachments/assets/57621753-e66e-4944-9b60-deac169e4570" />
+- 上傳 msfvenom 生成的 reverse shell 檔名取為 bd.exe
+  - <img width="1918" height="707" alt="image" src="https://github.com/user-attachments/assets/23d9ddcf-f945-41fd-a49c-b7537de76155" />
+- 再 shutdown /r 後，成功提權
+  - <img width="1417" height="390" alt="image" src="https://github.com/user-attachments/assets/6db9e434-717b-4a90-9c4a-a277e55d208b" />
+- 取得 proof.txt
+  - <img width="1057" height="472" alt="image" src="https://github.com/user-attachments/assets/de34bb49-d048-453d-abcc-66454699be0f" />
 
 
 
